@@ -21,4 +21,4 @@ jobs:
       id-token: "write"
 
     steps:
-      - run: echo test
+      - run: echo test2
