@@ -4,9 +4,6 @@ on:
   pull_request:
     branches:
       - main
-  pull_request_target:
-    branches:
-      - main
 
 # concurrency:
 #   group: test-${{ github.head_ref || github.ref }}
@@ -21,4 +18,4 @@ jobs:
       id-token: "write"
 
     steps:
-      - run: echo test
+      - run: echo test2
